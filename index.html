@@ -16,9 +16,13 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script>
-    
-</script>
+    <script>
+        $(function() {
+            $('a').click(function() {
+                $(this).css('color','white');   
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -53,7 +57,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" >11th Grade
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">11th Grade
         <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="home11.html">Home</a></li>
