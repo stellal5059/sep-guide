@@ -16,7 +16,16 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+    <script>
+        $(function() {
+            $('a').click(function() { //for visited links or links that are clicked on 
+                $(this).css('color', 'yellow'); //pick color for link
+            });
+            $('button').click(function() {
+                alert('Your response has been submitted');
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -100,6 +109,11 @@
             <p>Python has many similarites to JavaSript such as concepts and syntax.</p>
         </div>
     </div>
+     <div class="footer">
+            <h4>Do you think you would like to join the experience?</h4>
+            <input type="text">
+            <button type="submit">Submit</button>
+        </div>
 </body>
 
 </html>

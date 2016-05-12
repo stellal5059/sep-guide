@@ -19,7 +19,10 @@
     <script>
         $(function() {
             $('a').click(function() { //for visited links or links that are clicked on 
-                $(this).css('color','yellow');   //pick color for link
+                $(this).css('color', 'yellow'); //pick color for link
+            });
+            $('button').click(function(){
+                alert('Your response has been submitted');
             });
         });
     </script>
@@ -110,5 +113,11 @@
             </div>
 
         </div>
+        <div class="footer">
+            <h4>Do you think you would like to join the experience?</h4>
+            <input type="text">
+            <button type="submit">Submit</button>
+        </div>
+</body>
 
 </html>
