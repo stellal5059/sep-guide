@@ -1,6 +1,8 @@
-body{
+body,html{
     text-align:center;
-     background: linear-gradient(to bottom right, yellow, purple);
+     background: linear-gradient(to bottom right, yellow, purple)no-repeat;
+     background-size:cover;
+     height:100%;
      
 }
 
