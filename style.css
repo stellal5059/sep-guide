@@ -1,5 +1,7 @@
 body{
     text-align:center;
+     background: linear-gradient(to bottom right, yellow, purple);
+     
 }
 
 h1 {
