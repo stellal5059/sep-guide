@@ -19,7 +19,11 @@
     <script>
         $(function() {
             $('a').click(function() { //for visited links or links that are clicked on 
+                << << << < HEAD
                 $(this).css('color', 'yellow'); //pick color for link
+                === === =
+                $(this).css('color', 'pink'); //pick color for link
+                >>> >>> > 8 c4b4362f9d1e279c0e3735a3582ad5161f376df
             });
             $('button').click(function() {
                 alert('Your response has been submitted');
@@ -92,62 +96,90 @@
             </li>
         </ul>
     </nav>
-    <div class="container">
-        <h1><center>Robotics</center></h1>
-    </div>
+    <center>
+        <h1><strong>Robotics</strong></h1></center>
     <div class="container" id="about" name="About">
-        <br>
-        <br>
         <div class="container">
-            <h3><center>Robotics Code Snippet/Image</center></h3>
-            <hr> (image would be put under title)
+            <h2><center></center></h2>
+            <hr>
+        </div>
+        <!--Carousel-->
+        <div class="col-lg-offset-3 col-lg-7">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="robot-pic-1.jpg" alt="robot">
+                    </div>
+
+                    <div class="item">
+                        <img src="robot-pic-2.jpg" alt="robot">
+                    </div>
+
+                    <div class="item">
+                        <img src="robot-pic-3.jpg" alt="robot">
+                    </div>
+
+                    <div class="item">
+                        <img src="robot-pic-4.jpg" alt="Flower">
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--end of carousel-->
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <h2><center>What is Robotics?</center></h2>
+            <br>
+            <p id="robotics">
+                Robotics is the branch of computer science that deals with design, buliding, action and applicance of roberts.</p>
         </div>
         <div class="col-lg-offset-3 col-lg-7">
-
+            <p></p>
         </div>
 
-    </div>
 
-    <div class="container">
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3><center>What is Robotics?</center></h3>
-        <hr>
-        <br>
-        <p>Robotics is the branch of computer science that deals with design, buliding, action and applicance of roberts. </p>
-    </div>
-    <div class="col-lg-offset-3 col-lg-7">
-        <p></p>
-    </div>
-
-
-    <div class="container" id="tips" name="Tips">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <h3><center>Tips for being successful when learning about Robotics</center></h3>
-            <hr>
+        <div class="container" id="tips" name="Tips">
             <br>
+            <br>
+            <div class="row">
+                <h2><center>Tips for being successful when learning about Robotics</center></h2>
+                <hr>
+            </div>
+            <div class="col-lg-offset-3 col-lg-8">
+                <li>If you have a question ask 3 before asking the teacher for help</li>
+                <li>If you don't know something a good tool to use would be Google
+                    <br> ~Google is your best friend~
+                </li>
+                <li>Don't fool around in class or you will get left behind</li>
+                <Li>Never be shy to share your answer with the class, you are never wrong unless you make an educated guess</Li>
+                </h5>
+            </div>
         </div>
-        <div class="col-lg-offset-3 col-lg-8">
-            <li>If you have a question ask 3 before asking the teacher for help</li>
-            <li>If you don't know something a good tool to use would be Google
-                <br> ~Google is your best friend~
-            </li>
-            <li>Don't fool around in class or you will get left behind</li>
-            <Li>Never be shy to share your answer with the class, you are never wrong unless you make an educated guess</Li>
+        <div class="footer">
+            <center>
+                <h4>Have you ever created some type of robotic design?</h4></center>
+            <input type="text">
+            <button type="submit">Submit</button>
         </div>
-    </div>
-    <div class="footer">
-        <center>
-            <h4>Have you ever created some type of robotic design?</h4></center>
-        <input type="text">
-        <button type="submit">Submit</button>
-    </div>
 </body>
 
 </html>

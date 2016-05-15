@@ -1,6 +1,6 @@
 body,html{
     text-align:center;
-     background: linear-gradient(to bottom right, #FF7423, purple)no-repeat;
+     background: linear-gradient(to bottom right, white, violet)no-repeat;
      background-size:cover;
      height:100%;
      font-weight: bold;
@@ -10,6 +10,27 @@ body,html{
 
 h1 {
     font-family: cursive;
+}
+
+h2,h3{
+    font-family: cursive;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: medium;
+    font-style: italic;
+}
+
+.jumbotron {
+    background: url(http://www.hstat.org/wp-content/uploads/2011/12/building-picture-antique.jpg)no-repeat;
+    background-size: 100%;
+    background: center;
+}
+#robotics{
+    text-size:30px;
 }
 
 
