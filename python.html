@@ -19,7 +19,7 @@
     <script>
         $(function() {
             $('a').click(function() { //for visited links or links that are clicked on 
-                $(this).css('color', 'yellow'); //pick color for link
+                $(this).css('color', 'pink'); //pick color for link
             });
             $('button').click(function() {
                 alert('Your response has been submitted');
@@ -93,22 +93,32 @@
         </ul>
     </nav>
     <div class="container">
-        <h1><center>Python</center></h1>
-        <hr>
-        <div>
-            <p>Python is an advanced level general programming language</p>
-        </div>
-        <hr>
-        <div>
-            <p>Press the run button in order to get it to start</p>
+        <h1><strong><center>Python</strong></center></h1>
+        <div class="container" id="about" name="About">
+            <br>
+            <br>
+            <div class="container">
+                <h2><center>What is Python?</center></h2>
+                <hr>
+            </div>
+            <div class="col-lg-offset-3 col-lg-7">
+                <p><h5><center>Python is an advanced level general programming langauge.</center</h5></p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+            <p><h4>Press the run button in order to get it to start</h4></p>
             <iframe src="https://trinket.io/embed/python/cf3e7a4a41" width="800px" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
             <p>~Katherine Manzueta (9th grader)</p>
         </div>
-        <hr>
+        <br>
         <div>
-            <p>Python has many similarites to JavaSript such as concepts and syntax.</p>
+            <p><h5>Python has many similarites to JavaSript such as concepts and syntax.</h5></p>
         </div>
     </div>
+    <br>
+    <br>
      <div class="footer">
             <h4>What do you know about python?</h4>
             <input type="text">
