@@ -7,7 +7,11 @@ body,html{
 }
 
 h1 {
-    font-family: cursive
+    font-family: cursive;
+}
+
+h2 {
+    font-family: cursive;
 }
 
 .jumbotron {
