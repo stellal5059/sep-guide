@@ -3,6 +3,8 @@ body,html, css{
      background: linear-gradient(to bottom right, white, violet)no-repeat;
      background-size:cover;
      height:100%;
+     font-weight: bold;
+    font-size:20px;
      
 }
 
@@ -13,7 +15,12 @@ h1 {
 h2,h3{
     font-family: cursive;
     font-style: italic;
+<<<<<<< HEAD
     color: blackgit;
+=======
+    color: black;
+    font-weight: bold;
+>>>>>>> cd8dbd5104737a88229c39ecf510a9f9fcfb4ebb
 }
 
 h5 {
@@ -26,3 +33,8 @@ h5 {
     background-size: 100%;
     background: center;
 }
+#robotics{
+    text-size:30px;
+}
+
+
