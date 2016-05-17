@@ -33,6 +33,10 @@ h5 {
 
 #robotics {
     text-size: 30px;
+    font-family:cursive;
+}
+#tips{
+    font-family:cursive;
 }
 
 @media only screen and (max-width: 768px) {
@@ -49,6 +53,7 @@ h5 {
     h5 {
         font-size: 15px;
     }
+    
 }
 
 @media only screen (max-width: 992px) {
