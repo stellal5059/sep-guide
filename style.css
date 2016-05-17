@@ -34,3 +34,35 @@ h5 {
 #robotics {
     text-size: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+    body, html {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2,
+    h3 {
+        font-size: 15px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+}
+
+@media only screen (max-width: 992px) {
+    body, html {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2,
+    h3 {
+        font-size: 25px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+}
