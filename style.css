@@ -15,12 +15,7 @@ h1 {
 h2,h3{
     font-family: cursive;
     font-style: italic;
-<<<<<<< HEAD
-    color: blackgit;
-=======
     color: black;
-    font-weight: bold;
->>>>>>> cd8dbd5104737a88229c39ecf510a9f9fcfb4ebb
 }
 
 h5 {
