@@ -1,24 +1,24 @@
-body,html{
-    text-align:center;
-     background: linear-gradient(to bottom top, white, violet) no-repeat;
-     background-size:cover;
-     height:100%;
-     font-weight: bold;
-    font-size:20px;
-     
+body,
+html {
+    text-align: center;
+    background-color:#80CDFF;
+    height: 100%;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 h1 {
     font-family: cursive;
 }
 
-h2,h3{
+h2,
+h3 {
     font-family: cursive;
     font-style: italic;
     color: black;
 }
 
-h5 {
+h5, h4 {
     font-size: medium;
     font-style: italic;
     font-family: cursive;
@@ -30,42 +30,46 @@ h5 {
     font-family: cursive;
 }
 
+#robotics {
+    text-size: 30px;
+}
 
-#robotics{
-    text-size:30px;
+img {
+    height: 200px;
 }
-img{
-    height:200px;
+
+@media screen and (max-width: 786px) {
+    body, html {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2,
+    h3 {
+        font-size: 20px;
+    }
+    #myCarousel {
+        height: 150px;
+        width: 200px;
+    }
+    img {
+        height: 100px;
+    }
 }
-@media screen and (max-width: 786px){
-    body,html{
-        font-size:15px;
+
+@media screen and (max-width:992px) {
+    body, html {
+        font-size: 20px;
     }
-    h1{
-        font-size:20px;
+    h1 {
+        font-size: 30px;
     }
-    h2,h3{
-        font-size:20px;
+    h2,
+    h3 {
+        font-size: 25px;
     }
-    #myCarousel{
-        height:150px;
-        width:200px;
+    img {
+        height: 150px;
     }
-    img{
-    height:100px;
-}
-}
-@media screen and (max-width:992px){
-    body,html{
-        font-size:20px;
-    }
-    h1{
-        font-size:30px;
-    }
-    h2,h3{
-        font-size:25px;
-    }
-    img{
-    height:150px;
-}
 }
