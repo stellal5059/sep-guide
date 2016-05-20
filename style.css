@@ -21,6 +21,7 @@ h2,h3{
 h5 {
     font-size: medium;
     font-style: italic;
+    font-family: cursive;
 }
 
 .jumbotron {
@@ -33,14 +34,9 @@ h5 {
 #robotics{
     text-size:30px;
 }
-#myCarousel{
-    height:300px;
-    width:400px;
-    margin-left: auto;
-    margin-right: auto;
+img{
+    height:200px;
 }
-
-
 @media screen and (max-width: 786px){
     body,html{
         font-size:15px;
@@ -49,10 +45,27 @@ h5 {
         font-size:20px;
     }
     h2,h3{
-        font-size:10px;
+        font-size:20px;
     }
     #myCarousel{
         height:150px;
         width:200px;
     }
+    img{
+    height:100px;
+}
+}
+@media screen and (max-width:992px){
+    body,html{
+        font-size:20px;
+    }
+    h1{
+        font-size:30px;
+    }
+    h2,h3{
+        font-size:25px;
+    }
+    img{
+    height:150px;
+}
 }
