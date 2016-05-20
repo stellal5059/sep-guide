@@ -25,12 +25,18 @@ h5 {
 
 .jumbotron {
     background: url("http://www.hstat.org/wp-content/uploads/2011/12/building-picture-antique.jpg") no-repeat;
-    background-size: 50%;
-    /*background: center;*/
+    background-size: 100%;
+    font-family: cursive;
 }
 
 #robotics{
     text-size:30px;
+}
+#myCarousel{
+    height:300px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 786px){
@@ -43,5 +49,8 @@ h5 {
     h2,h3{
         font-size:10px;
     }
-    
+    #myCarousel{
+        height:150px;
+        width:200px;
+    }
 }
